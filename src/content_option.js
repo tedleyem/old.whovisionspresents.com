@@ -17,7 +17,7 @@ const introdata = {
 
 const dataabout = {
     title: "Who Shot Ya",
-    aboutme: "Lorem ipsum dolor sit ametf, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    aboutme: "Lo n commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
 };
 const worktimeline = [{
         jobtitle: "Designer of week",
@@ -171,7 +171,8 @@ const socialprofils = {
     youtube: "https://www.youtube.com/channel/UCH16tV4tIjAc1W1KVRVBPqw",
     instagram: "https://instagram.com/whovisions",
     twitch: "https://www.twitch.tv/superdavewho",
-};
+    shop1: "https://shop.whovisionspresents.com",
+}; 
 export {
     meta,
     dataabout,
