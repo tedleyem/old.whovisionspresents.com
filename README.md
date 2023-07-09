@@ -1,4 +1,10 @@
-### Description
+### WHOVISIONSPRESENTS
+
+* [Vercel Shop Whovisions](https://whovisionspresents-shop.vercel.app/)
+* [Shop Whovisions](https://shop.whovisions.com)
+* [Whovisions Presents](https://whovisionspresents.com)
+* [Superdave For Hire](https://superdaveforhire.com)
+
 
 A simple portfolio template for developer/designers built with React. 
 
