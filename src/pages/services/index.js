@@ -8,6 +8,7 @@ import {
   photoservice,
   videoservice,
   contentservice,
+  contenttimeline,
 } from "../../content_option";
 
 export const Services = () => {
@@ -40,7 +41,7 @@ export const Services = () => {
             <h3 className="color_sec py-4">Content Services</h3>
           </Col>
           <Col lg="7">
-            {contentservice.map((data, i) => {
+            {contenttimeline.map((data, i) => {
               return (
                 <div className="service_ py-4" key={i}>
                   <h5 className="service__title">{data.title}</h5>
@@ -49,7 +50,7 @@ export const Services = () => {
               );
             })}
           </Col>
-        </Row>
+        </Row> 
         <Row className="sec_sp">
           <Col lang="5">
             <h3 className="color_sec py-4">Photo Services</h3>

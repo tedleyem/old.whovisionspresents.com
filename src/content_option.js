@@ -19,16 +19,33 @@ const dataabout = {
     title: "Who Shot Ya",
     aboutme: "WE SHOT YA! We are a team of professional photographers based in NYC. Our Professional photography supports strategic branding efforts with unique images tailored to each project’s needs. Let us be your once stop shop for Photo Services, Content Creation, Video editing, and more.",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+const contenttimeline = [{
+        title: "Optimize Ad Performance", 
+        description: "Great Performance Requires Great Content. That's why we focus on generating channel specific assets, combat ad fatigue with diverse assets with unique hooks and value proposition.",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        title: "Boost Retailer Relationships", 
+        description: "We focus on supporting in-store traffic via influencer activations, optimizing your retailer's relations with syndicated product reviews",
     }, 
+    {
+        title: "New Product Launch", 
+        description: "As a consumer brand you know that a great product launch is essential for a new product's success in the market. Whovisions supports product launches by enabling brands to drive awareness via Influencers, build trust via proactive product review creation, and scale high-quality creative to support your paid and conversion channels.",
+    }, 
+    {
+        title: "Launch A New Social Channel", 
+        description: "Gone are the days of a social strategy that exclusively focuses on 1-2 social channels. Whovisions can help brands connect new social channels and setup the right content optimized for each channel to grow and gain traffic.",
+    }, 
+    {
+        title: "Increase Organic Presence", 
+        description: "Telling your brand story is a critical part of your online presence and pushing people from consideration to purchasing your product(s). Whovisions can help generate the visual content needed to fill your social calendar.",
+    }, 
+];
+
+const worktimeline = [{
+    jobtitle: "Optimize Ad Performance",
+    description: "YAdfi",
+    date: "2020",
+}, 
 ];
 
 const skills = [{
@@ -47,35 +64,35 @@ const contentservice = [{
 },
 {
     title: "Content creation services",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+    description: "Our Content creator services",
 },
 ];
 
 const photoservice = [{
     title: "Headshots",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+    description: "Complete Coverage to Capture Your Wedding Day Story.",
 },
 {
     title: "Portrait Photography",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+    description: "Portfolio, biography and personality photos available.",
 },
 {
     title: "Social Media Content Shots",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+    description: "Branding photos, event photos and digital flyers, photo editing avialable.",
 },
 ];
 
 const videoservice = [{
     title: "B-roll Footage",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+    description: "Need additional footage to fill gaps or create montages for youtube videos or film, we have them available.",
 },
 {
     title: "Music Video services",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+    description: "Whovisions can be your one stop shop for shooting, recording, and post-production of your next music video.",
 },
 {
     title: "Video Editing",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+    description: "Whovisions can help with youtube video editing, model promotional videos, and more.",
 },
 ];
 
@@ -186,6 +203,6 @@ export {
     socialprofils,
     logotext,
     videoservice,
-    photoservice,
-    contentservice,
+    photoservice, 
+    contenttimeline,
 };
