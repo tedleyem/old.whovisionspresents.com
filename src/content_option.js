@@ -12,7 +12,7 @@ const introdata = {
         third: "We capture culture",
     },
     description: "",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    your_img_url: "https://github.com/techdadteddy/whovisionspresents.com/blob/main/src/assets/images/who-logo-verticla-banner.png?raw=true",
 };
 
 const dataabout = {
