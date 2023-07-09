@@ -172,7 +172,8 @@ const socialprofils = {
     instagram: "https://instagram.com/whovisions",
     twitch: "https://www.twitch.tv/superdavewho",
     shop1: "https://shop.whovisionspresents.com",
-}; 
+    superdaveforhire: "https://superdaveforhire.com",
+};
 export {
     meta,
     dataabout,
