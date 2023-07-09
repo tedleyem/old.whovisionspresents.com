@@ -17,7 +17,7 @@ const introdata = {
 
 const dataabout = {
     title: "Who Shot Ya",
-    aboutme: "Lo n commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    aboutme: "WE SHOT YA! We are a team of professional photographers based in NYC. Our Professional photography supports strategic branding efforts with unique images tailored to each project’s needs. Let us be your once stop shop for Photo Services, Content Creation, Video editing, and more.",
 };
 const worktimeline = [{
         jobtitle: "Designer of week",
@@ -38,43 +38,43 @@ const skills = [{
 ];
 
 const contentservice = [{
-    title: "UI & UX Design",
+    title: "UI & UX Designs with Photoshop",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
 },
 {
-    title: "Mobile Apps",
+    title: "Social Media Management",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
 },
 {
-    title: "Wordpress Design",
+    title: "Content creation services",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
 },
 ];
 
 const photoservice = [{
-    title: "UI & UX Design",
+    title: "Headshots",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
 },
 {
-    title: "Mobile Apps",
+    title: "Portrait Photography",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
 },
 {
-    title: "Wordpress Design",
+    title: "Social Media Content Shots",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
 },
 ];
 
 const videoservice = [{
-    title: "UI & UX Design",
+    title: "B-roll Footage",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
 },
 {
-    title: "Mobile Apps",
+    title: "Music Video services",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
 },
 {
-    title: "Wordpress Design",
+    title: "Video Editing",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
 },
 ];
