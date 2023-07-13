@@ -179,7 +179,7 @@ const contactConfig = {
     description: "Contact us for all video, photo, and content inquiries ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
+    YOUR_SERVICE_ID: "{{ secrets.EMAILJS_SERVICE_ID }}",
     YOUR_TEMPLATE_ID: "template_id",
     YOUR_USER_ID: "user_id",
 };
@@ -205,4 +205,5 @@ export {
     videoservice,
     photoservice, 
     contenttimeline,
+    contentservice,
 };
