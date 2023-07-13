@@ -110,6 +110,12 @@ const services = [{
     },
 ];
 
+const whopicportfolio = [{ 
+    description: "WhoVisions Presents",
+    link: "https://instagram.com/whovisions/",
+}, 
+];
+
 const dataportfolio = [{
         img: "https://picsum.photos/400/?grayscale",
         description: "The wisdom of life consists in the elimination of non-essentials.",
@@ -195,6 +201,7 @@ export {
     meta,
     dataabout,
     dataportfolio,
+    whopicportfolio,
     worktimeline,
     skills,
     services,
