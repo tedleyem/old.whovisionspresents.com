@@ -1,9 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.d07a1c37.css",
-    "main.js": "/static/js/main.b334a9c5.js",
+    "main.js": "/static/js/main.0d333379.js",
     "static/media/jay_ny.jpg": "/static/media/jay_ny.e1ca5f6f7b0345b497b7.jpg",
     "static/media/fashion-week-edit.jpg": "/static/media/fashion-week-edit.00f99a9b163f57fb225d.jpg",
+    "static/media/0Y9A5790.jpg": "/static/media/0Y9A5790.7da47fb9c87fc07359e3.jpg",
+    "static/media/0Y9A5791.jpg": "/static/media/0Y9A5791.c2598b162fc3d4542b37.jpg",
     "static/media/whoshotya0019_0031_02052014.jpg": "/static/media/whoshotya0019_0031_02052014.ed380ba7be7dcf2f57fa.jpg",
     "static/media/whoshotya0063-3565.jpg": "/static/media/whoshotya0063-3565.66517d809e8bd3ce9fe4.jpg",
     "static/media/whoshotya_-_0076_-_-17.jpg": "/static/media/whoshotya_-_0076_-_-17.81a31fe9148069b13336.jpg",
@@ -33,10 +35,10 @@
     "static/media/427897_481348325230794_421809690_n.jpg": "/static/media/427897_481348325230794_421809690_n.98cde8f6ee142c126d81.jpg",
     "index.html": "/index.html",
     "main.d07a1c37.css.map": "/static/css/main.d07a1c37.css.map",
-    "main.b334a9c5.js.map": "/static/js/main.b334a9c5.js.map"
+    "main.0d333379.js.map": "/static/js/main.0d333379.js.map"
   },
   "entrypoints": [
     "static/css/main.d07a1c37.css",
-    "static/js/main.b334a9c5.js"
+    "static/js/main.0d333379.js"
   ]
 }
