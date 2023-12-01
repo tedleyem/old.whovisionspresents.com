@@ -26,8 +26,8 @@
         "eject": "react-scripts eject",
         "predeploy": "yarn build && cp build/index.html build/404.html",
         "deploy": "gh-pages -d build",
-		"lint": "eslint ./",
-		"lint-fix": "eslint ./ --fix"
+        "lint": "eslint ./",
+        "lint-fix": "eslint ./ --fix"
     },
     "eslintConfig": {
         "extends": [

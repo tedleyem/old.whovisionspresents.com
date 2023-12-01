@@ -5,7 +5,8 @@ module.exports = {
   },
   extends: [
     'standard',
-    'plugin:react/recommended'
+    'plugin:react/recommended',
+    'eslint:recommended'
   ],
   overrides: [
     {
@@ -28,5 +29,9 @@ module.exports = {
     'react'
   ],
   rules: {
+    'react/prop-types': 'off',
+    'react/no-prototype-builtins': 'off',
+    'react/react-in-jsx-scope': 'off',
+    'react/jsx-key': 'off'
   }
 }

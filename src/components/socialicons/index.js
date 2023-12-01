@@ -1,19 +1,19 @@
-import React from "react";
-import "./style.css";
-import { 
+import React from 'react'
+import './style.css'
+import {
   FaInstagram,
   FaYoutube,
   FaTwitch,
   FaLocationArrow,
   FaShoppingCart,
-  FaHome,
-} from "react-icons/fa";
-import { socialprofils } from "../../content_option";
+  FaHome
+} from 'react-icons/fa'
+import { socialprofils } from '../../content_option'
 
 export const Socialicons = (params) => {
   return (
     <div className="stick_follow_icon">
-      <ul> 
+      <ul>
         {socialprofils.home && (
           <li>
             <a href={socialprofils.home}>
@@ -34,7 +34,7 @@ export const Socialicons = (params) => {
               <FaLocationArrow />
             </a>
           </li>
-        )} 
+        )}
         {socialprofils.instagram && (
           <li>
             <a href={socialprofils.instagram}>
@@ -59,5 +59,5 @@ export const Socialicons = (params) => {
       </ul>
       <p>Follow Me</p>
     </div>
-  );
-};
+  )
+}
