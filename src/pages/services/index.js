@@ -1,15 +1,14 @@
-import React from "react";
-import "./style.css";
-import { Helmet, HelmetProvider } from "react-helmet-async";
-import { Container, Row, Col } from "react-bootstrap";
+import React from 'react'
+import './style.css'
+import { Helmet, HelmetProvider } from 'react-helmet-async'
+import { Container, Row, Col } from 'react-bootstrap'
 import {
   dataabout,
   meta,
   photoservice,
   videoservice,
-  contentservice,
-  contenttimeline,
-} from "../../content_option";
+  contenttimeline
+} from '../../content_option'
 
 export const Services = () => {
   return (
@@ -35,7 +34,7 @@ export const Services = () => {
               <p>{dataabout.aboutme}</p>
             </div>
           </Col>
-        </Row>  
+        </Row>
         <Row className="sec_sp">
           <Col lang="5">
             <h3 className="color_sec py-4">Content Services</h3>
@@ -47,10 +46,10 @@ export const Services = () => {
                   <h5 className="service__title">{data.title}</h5>
                   <p className="service_desc">{data.description}</p>
                 </div>
-              );
+              )
             })}
           </Col>
-        </Row> 
+        </Row>
         <Row className="sec_sp">
           <Col lang="5">
             <h3 className="color_sec py-4">Photo Services</h3>
@@ -62,7 +61,7 @@ export const Services = () => {
                   <h5 className="service__title">{data.title}</h5>
                   <p className="service_desc">{data.description}</p>
                 </div>
-              );
+              )
             })}
           </Col>
         </Row>
@@ -77,11 +76,11 @@ export const Services = () => {
                   <h5 className="service__title">{data.title}</h5>
                   <p className="service_desc">{data.description}</p>
                 </div>
-              );
+              )
             })}
           </Col>
         </Row>
       </Container>
     </HelmetProvider>
-  );
-};
+  )
+}

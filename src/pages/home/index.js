@@ -1,9 +1,9 @@
-import React from "react";
-import "./style.css";
-import { Helmet, HelmetProvider } from "react-helmet-async";
-import Typewriter from "typewriter-effect";
-import { introdata, meta } from "../../content_option";
-import { Link } from "react-router-dom";
+import React from 'react'
+import './style.css'
+import { Helmet, HelmetProvider } from 'react-helmet-async'
+import Typewriter from 'typewriter-effect'
+import { introdata, meta } from '../../content_option'
+import { Link } from 'react-router-dom'
 
 export const Home = () => {
   return (
@@ -29,11 +29,11 @@ export const Home = () => {
                       strings: [
                         introdata.animated.first,
                         introdata.animated.second,
-                        introdata.animated.third,
+                        introdata.animated.third
                       ],
                       autoStart: true,
                       loop: true,
-                      deleteSpeed: 10,
+                      deleteSpeed: 10
                     }}
                   />
                 </h1>
@@ -62,5 +62,5 @@ export const Home = () => {
         </div>
       </section>
     </HelmetProvider>
-  );
-};
+  )
+}
