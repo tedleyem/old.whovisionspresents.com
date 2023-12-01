@@ -46,16 +46,20 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Build and Deploy React app to GitHub Pages
-        uses: omkartapale/react-deployment-gh-pages@v1.0.0
+      #- name: Build and Deploy React app to GitHub Pages
+      #  uses: omkartapale/react-deployment-gh-pages@v1.0.0
 
       # deploy the react app to github pages
-      #- name: Deploy (npm)
-      #  run: |
-      #    git config --global user.email 'github-actions@github.com'
-      #    git config --global user.name 'github-actions'
-      #    npm run deploy
-      
+      - name: Deploy (npm)
+        run: |
+          git config user.name 'github-actions'
+          git config user.email 'github-actions@github.com'
+          npm run deploy
+          git --work-tree build add --all
+          git commit -m "Automatic Build and Deploy run by GitHub Actions"
+          git push origin HEAD:gh-pages --force
+        #npm run deploy
+
       # deploy the react app to github pages
       #- name: Deploy
       #  uses: peaceiris/actions-gh-pages@v3
