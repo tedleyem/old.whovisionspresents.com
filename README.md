@@ -9,6 +9,9 @@
 * [FontAwesome react-icon](https://react-icons.github.io/react-icons/)
 A simple portfolio template for developer/designers built with React. 
 
+## Addition
+* added eslint for syntax and formatting
+
 TO DO:
 * https://blog.devgenius.io/how-add-your-instagram-posts-to-your-react-project-e8527d2a7187
 * https://www.npmjs.com/package/react-instagram-embed
