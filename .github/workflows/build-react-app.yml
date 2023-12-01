@@ -5,6 +5,10 @@ on:
     branches:
       - main
   pull_request:
+    # Sequence of patterns matched against refs/heads
+    branches:
+      - main
+      - 'testing/**'
 
 permissions:
   contents: read
