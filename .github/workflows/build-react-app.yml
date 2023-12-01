@@ -49,12 +49,15 @@ jobs:
       - name: Build
         run: npm run build
 
+    - name: Build and Deploy React app to GitHub Pages
+      uses: omkartapale/react-deployment-gh-pages@v1.0.0
+
       # deploy the react app to github pages
-      - name: Deploy (npm)
-        run: |
-          git config --global user.email 'github-actions@github.com'
-          git config --global user.name 'github-actions'
-          npm run deploy
+      #- name: Deploy (npm)
+      #  run: |
+      #    git config --global user.email 'github-actions@github.com'
+      #    git config --global user.name 'github-actions'
+      #    npm run deploy
       
       # deploy the react app to github pages
       #- name: Deploy
