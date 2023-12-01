@@ -12,7 +12,7 @@ const introdata = {
         third: "We capture culture",
     },
     description: "",
-    your_img_url: "https://github.com/techdadteddy/whovisionspresents.com/blob/main/src/assets/images/who-logo-verticla-banner.png?raw=true",
+    your_img_url: "https://github.com/tedleyem/whovisionspresents.com/blob/main/src/assets/images/who-logo-verticla-banner.png?raw=true",
 };
 
 const dataabout = {
@@ -196,6 +196,7 @@ const socialprofils = {
     twitch: "https://www.twitch.tv/superdavewho",
     shop1: "https://shop.whovisionspresents.com",
     superdaveforhire: "https://superdaveforhire.com",
+    home: "https://whovisionspresents.com",
 };
 export {
     meta,

@@ -52,6 +52,7 @@ const Headermain = () => {
           </div>
           <div className="menu_footer d-flex flex-column flex-md-row justify-content-between align-items-md-center position-absolute w-100 p-3">
             <div className="d-flex">
+            <a href={socialprofils.home}>Home</a>
             <a href={socialprofils.instagram}>Instagram</a>
             <a href={socialprofils.twitch}>Twitch</a>
             <a href={socialprofils.youtube}>Youtube</a>
@@ -65,7 +66,6 @@ const Headermain = () => {
       <div className="br-bottom"></div>
       <div className="br-left"></div>
       <div className="br-right"></div>
-      
     </>
   );
 };

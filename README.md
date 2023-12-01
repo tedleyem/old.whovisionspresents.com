@@ -6,8 +6,14 @@
 * [Superdave For Hire](https://superdaveforhire.com)
 * [LINKTREE link](https://linktr.ee/superdaveforhire)
 * [HeadlessDropShipping](https://headlessdropshipping.com)
-
+* [FontAwesome react-icon](https://react-icons.github.io/react-icons/)
 A simple portfolio template for developer/designers built with React. 
+
+
+### MAKING CHANGES
+To make changes to links or add additional information update the
+content_options.js file
+
 
 ### [live preview](https://ubaimutl.github.io/react-portfolio/)
 
