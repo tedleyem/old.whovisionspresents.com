@@ -46,8 +46,8 @@ jobs:
       - name: Build
         run: npm run build
 
-    - name: Build and Deploy React app to GitHub Pages
-      uses: omkartapale/react-deployment-gh-pages@v1.0.0
+      - name: Build and Deploy React app to GitHub Pages
+        uses: omkartapale/react-deployment-gh-pages@v1.0.0
 
       # deploy the react app to github pages
       #- name: Deploy (npm)
