@@ -31,7 +31,7 @@ content_options.js file
 
 Get the code
 
-<pre>git clone https://github.com/ubaimutl/whovisionspresents.git</pre>
+<pre>git clone https://github.com/tedleyem/whovisionspresents.git</pre>
  
 Install required dependencies
 
@@ -41,6 +41,13 @@ Install required dependencies
 Start the server
 
 <pre>npm run start</pre>
+
+### Deploy
+
+Deploy to github pages
+
+<pre>npm run deploy</pre>
+
 
 ### More
 
