@@ -53,6 +53,8 @@ jobs:
       - name: Deploy (npm)
         run: |
           npm run deploy
+          git config --global user.email 'github-actions@github.com'
+          git config --global user.name 'github-actions'
 
       # deploy the react app to github pages
       #- name: Deploy
