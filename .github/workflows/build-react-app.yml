@@ -1,5 +1,4 @@
 name: React App Deployment # name of the workflo
-
 on:
   push:
     branches:
