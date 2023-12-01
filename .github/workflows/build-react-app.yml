@@ -18,9 +18,6 @@ permissions:
 jobs:
   deploy-react-to-gh-pages:
     runs-on: ubuntu-latest
-    env:
-      EXAMPLE: example # environment variable
-
     steps:
       # checkout the repository content to github runner
       - name: Checkout
