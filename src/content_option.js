@@ -1,3 +1,10 @@
+// dummy images
+import photoOne from './assets/whovision/photo-1.jpg'
+import photoTwo from './assets/whovision/photo-2.jpeg'
+import photoThree from './assets/whovision/photo-3.jpeg'
+import photoFour from './assets/whovision/photo-4.jpeg'
+import photoFive from './assets/whovision/photo-5.jpeg'
+
 const logotext = 'Whovisions'
 const meta = {
   title: 'Whovisions',
@@ -119,6 +126,10 @@ const dataportfolio = [{
 }
 ]
 
+const instaImages = [
+  photoOne, photoTwo, photoThree, photoFour, photoFive
+]
+
 const contactConfig = {
   YOUR_EMAIL: 'whovisionsteam@gmail.com',
   YOUR_FONE: '(786)529-5859',
@@ -152,5 +163,6 @@ export {
   videoservice,
   photoservice,
   contenttimeline,
-  contentservice
+  contentservice,
+  instaImages
 }

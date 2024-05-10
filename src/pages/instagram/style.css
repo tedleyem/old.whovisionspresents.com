@@ -1,0 +1,15 @@
+.image-dis{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: 3rem;
+}
+.img-div{
+    width:100%;
+    background:var(--secondary-color);
+    border:1px solid var(--secondary-color);
+    margin: 0.5rem auto;
+    padding: 6px;
+}
+.img-div img {
+    width:100%;
+}
