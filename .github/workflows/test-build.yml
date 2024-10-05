@@ -8,7 +8,7 @@ on:
   pull_request:
     # Sequence of patterns matched against refs/heads
     branches:
-      - 'test/*'
+      - main
 
 permissions:
   contents: read
