@@ -20,16 +20,46 @@ https://react-icons.github.io/react-icons/
 They can be edited from the header component 
 src/components/socialicons/index.js 
 
+# DEPLOY locally 
+To build locally and deploy to gh-pages 
+install react scripts 
+
+
+```
+npm i
+```
+then build 
+
+```
+npm run build 
+```
+and deploy 
+
+```
+npm run deploy
+```
+
+
+#### rebuilding deployment keys 
+If you ever need to rebuild the deploy keys 
+follow these steps 
+
+
+https://dev.to/achukka/deploy-react-app-using-github-actions-157d
+
+Step 3: Create SSH Deploy Key
+
+Generate your deploy key
+
+ssh-keygen -t rsa -b 4096 -C "$(git config user.email)" -f "<your-deploy-branch>" -N ""
 
 
 ---
-
-## Addition
-* added eslint for syntax and formatting
-
  
 
 ### [source project live preview](https://ubaimutl.github.io/react-portfolio/)
+
+### [source project github](https://github.com/ubaimutl/react-portfolio)
 
 [![react portfoiio](src/assets/images/react%20portfolio%20gif.gif)](https://ubaimutl.github.io/whovisionspresents/)
 
