@@ -5,7 +5,7 @@ import {
   FaYoutube,
   FaTwitch,
   FaLocationArrow,
-  FaShoppingCart,
+  FaCameraRetro,
   FaHome
 } from 'react-icons/fa'
 import { socialprofils } from '../../content_option'
@@ -21,10 +21,10 @@ export const Socialicons = (params) => {
             </a>
           </li>
         )}
-        {socialprofils.shop1 && (
+        {socialprofils.shots && (
           <li>
-            <a href={socialprofils.shop1}>
-              <FaShoppingCart />
+            <a href={socialprofils.shots}>
+              <FaCameraRetro />
             </a>
           </li>
         )}
