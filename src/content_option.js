@@ -134,8 +134,7 @@ const socialprofils = {
   youtube: 'https://www.youtube.com/channel/UCH16tV4tIjAc1W1KVRVBPqw',
   instagram: 'https://instagram.com/whovisions',
   twitch: 'https://www.twitch.tv/superdavewho',
-  shop1: 'https://shop.whovisionspresents.com',
-  superdaveforhire: 'https://superdaveforhire.com',
+  shots: 'https://www.picdrop.com/whovisionspresents/',
   home: 'https://whovisionspresents.com'
 }
 export {

@@ -39,7 +39,7 @@ export const Home = () => {
                 </h1>
                 <p className="mb-1x">{introdata.description}</p>
                 <div className="intro_btn-action pb-5">
-                  <Link to="/portfolio" className="text_2">
+                  <Link to="https://www.picdrop.com/whovisionspresents/" className="text_2">
                     <div id="button_p" className="ac_btn btn ">
                       Portfolio
                       <div className="ring one"></div>
@@ -50,6 +50,14 @@ export const Home = () => {
                   <Link to="/services">
                     <div id="button_h" className="ac_btn btn">
                       Services
+                      <div className="ring one"></div>
+                      <div className="ring two"></div>
+                      <div className="ring three"></div>
+                    </div>
+                  </Link>
+                  <Link to="https://www.instagram.com/thedailywho">
+                    <div id="button_h" className="ac_btn btn">
+                      The Daily Who
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>

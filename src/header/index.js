@@ -38,14 +38,17 @@ const Headermain = () => {
                   <Link onClick={handleToggle} to="/" className="my-3">Home</Link>
                   </li>
                   <li className="menu_item">
-                    <Link onClick={handleToggle} to="/portfolio" className="my-3"> Portfolio</Link>
+                    <Link onClick={handleToggle} to="https://www.instagram.com/whovisions" className="my-3"> Portfolio</Link>
                   </li>
                   <li className="menu_item">
                   <Link onClick={handleToggle} to="/services" className="my-3">Services</Link>
                   </li>
                   <li className="menu_item">
-                  <Link onClick={handleToggle} to="/contact" className="my-3">Contact</Link>
+                    <Link onClick={handleToggle} to="https://www.picdrop.com/whovisionspresents" className="my-3"> picdrops</Link>
                   </li>
+                  <li className="menu_item">
+                  <Link onClick={handleToggle} to="https://www.instagram.com/whovisions" className="my-3">@Whovisions</Link>
+                  </li> 
                 </ul>
               </div>
             </div>
@@ -56,7 +59,7 @@ const Headermain = () => {
             <a href={socialprofils.instagram}>Instagram</a>
             <a href={socialprofils.twitch}>Twitch</a>
             <a href={socialprofils.youtube}>Youtube</a>
-            <a href={socialprofils.shop1}>Shop</a>
+            <a href={socialprofils.shots}>Shots</a>
             </div>
             <p className="copyright m-0">copyright {logotext}</p>
           </div>
