@@ -9,8 +9,25 @@
 * [FontAwesome react-icon](https://react-icons.github.io/react-icons/)
 A simple portfolio template for developer/designers built with React. 
 
+
+### MAKING CHANGES
+To make changes to links or add additional information update the
+content_options.js file
+
+Icons: Icons can be found at 
+https://react-icons.github.io/react-icons/
+
+They can be edited from the header component 
+src/components/socialicons/index.js 
+
+
+
+---
+
 ## Addition
 * added eslint for syntax and formatting
+
+
 
 
 TO DO:
