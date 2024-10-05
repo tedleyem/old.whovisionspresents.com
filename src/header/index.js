@@ -48,7 +48,7 @@ const Headermain = () => {
                   </li>
                   <li className="menu_item">
                   <Link onClick={handleToggle} to="https://www.instagram.com/whovisions" className="my-3">@Whovisions</Link>
-                  </li> 
+                  </li>
                 </ul>
               </div>
             </div>

@@ -1,16 +1,10 @@
 # Future gh-actions yaml file
 # deploy steps fail with deploy keys
-name: Deploy React App # name of the workflow
+name: Build and Deploy React App # name of the workflow
 on:
   push:
     branches:
       - main
-  pull_request:
-    # Sequence of patterns matched against refs/heads
-    branches:
-      - main
-      - 'test/**'
-      - 'testing/**'
 
 permissions:
   contents: read
