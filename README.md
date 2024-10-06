@@ -1,21 +1,12 @@
 ### WHOVISIONSPRESENTS
-
-* [Vercel Shop Whovisions](https://whovisionspresents-shop.vercel.app/)
 * [Shop Whovisions](https://shop.whovisions.com)
 * [Whovisions Presents](https://whovisionspresents.com)
 * [Superdave For Hire](https://superdaveforhire.com)
-* [LINKTREE link](https://linktr.ee/superdaveforhire)
-* [HeadlessDropShipping](https://headlessdropshipping.com)
-* [FontAwesome react-icon](https://react-icons.github.io/react-icons/)
-A simple portfolio template for developer/designers built with React. 
-
+* [LINKTREE link](https://linktr.ee/superdaveforhire) 
 
 ### MAKING CHANGES
 To make changes to links or add additional information update the
 content_options.js file
-
-Icons: Icons can be found at 
-https://react-icons.github.io/react-icons/
 
 They can be edited from the header component 
 src/components/socialicons/index.js 
@@ -55,11 +46,10 @@ ssh-keygen -t rsa -b 4096 -C "$(git config user.email)" -f "<your-deploy-branch>
 
 
 ---
- 
 
-### [source project live preview](https://ubaimutl.github.io/react-portfolio/)
-
-### [source project github](https://github.com/ubaimutl/react-portfolio)
+* [React Icons](https://react-icons.github.io/react-icons/)
+* [source project live preview](https://ubaimutl.github.io/react-portfolio/)
+* [source project github](https://github.com/ubaimutl/react-portfolio)
 
 [![react portfoiio](src/assets/images/react%20portfolio%20gif.gif)](https://ubaimutl.github.io/whovisionspresents/)
 
