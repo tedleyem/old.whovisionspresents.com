@@ -38,16 +38,16 @@ const Headermain = () => {
                   <Link onClick={handleToggle} to="/" className="my-3">Home</Link>
                   </li>
                   <li className="menu_item">
-                    <Link onClick={handleToggle} to={{ pathname: "https://www.instagram.com/whovisions" }} target="_blank" className="my-3"> Portfolio</Link>
+                    <Link onClick={handleToggle} to={{ pathname: 'https://www.instagram.com/whovisions' }} target="_blank" className="my-3"> Portfolio</Link>
                   </li>
                   <li className="menu_item">
                   <Link onClick={handleToggle} to="/services" className="my-3">Services</Link>
                   </li>
                   <li className="menu_item">
-                    <Link onClick={handleToggle} to="https://www.picdrop.com/whovisionspresents" className="my-3"> picdrops</Link>
+                    <Link onClick={handleToggle} to={{ pathname: 'https://www.picdrop.com/whovisionspresents' }} target="_blank" className="my-3"> picdrops</Link>
                   </li>
                   <li className="menu_item">
-                  <Link onClick={handleToggle} to="https://www.instagram.com/whovisions" className="my-3">@Whovisions</Link>
+                  <Link onClick={handleToggle} to={{ pathname: 'https://www.instagram.com/whovisions' }} target="_blank" className="my-3">@Whovisions</Link>
                   </li>
                 </ul>
               </div>
